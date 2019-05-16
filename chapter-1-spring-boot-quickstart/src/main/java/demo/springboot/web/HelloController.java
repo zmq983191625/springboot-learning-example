@@ -16,6 +16,6 @@ public class HelloController {
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     @ResponseBody
     public String sayHello() {
-        return "Hello，Spring Boot！";
+        return "Hello，Spring Boot！2";
     }
 }
